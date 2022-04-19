@@ -20,7 +20,8 @@ public class AllSwap {
 
     /*
     ANSWER FROM GITHUB:
-      String[] result=new String[strings.length];
+ public String[] allSwap(String[] strings) {
+    String[] result=new String[strings.length];
   Map<Character, Integer> map = new HashMap<Character, Integer>();
   for (int i = 0; i < strings.length; i++) {
     char c  = strings[i].charAt(0);

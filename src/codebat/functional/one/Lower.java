@@ -1,4 +1,4 @@
-package codebat.functional;
+package codebat.functional.one;
 
 import java.util.List;
 import java.util.stream.Collectors;
