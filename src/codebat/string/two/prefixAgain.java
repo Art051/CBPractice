@@ -7,9 +7,14 @@ public class prefixAgain {
         String prefix = str.substring(0, n);
         String newString = str.substring(n);
 
-        for(int i = 0; i < newString.length() - n; i++){
-            if(newString.substring(i, i + n).equals(prefix)){
-                return true;
+        if(str.length() == 2){
+            return str.charAt(0) == str.charAt(1);
+        }
+        else {
+            for (int i = 0; i < newString.length() - n; i++) {
+                if (newString.substring(i, i + n).equals(prefix)) {
+                    return true;
+                }
             }
         }
         return false;
